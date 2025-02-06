@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F81762AA2D52416600BC12C8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81762A92D52416600BC12C8 /* DetailView.swift */; };
 		F8E247552D424FEB00C957D7 /* NotesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E247542D424FEB00C957D7 /* NotesAppApp.swift */; };
 		F8E247572D424FEB00C957D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E247562D424FEB00C957D7 /* ContentView.swift */; };
 		F8E247592D424FED00C957D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E247582D424FED00C957D7 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		F8E247662D424FED00C957D7 /* NotesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E247652D424FED00C957D7 /* NotesAppTests.swift */; };
 		F8E247702D424FED00C957D7 /* NotesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E2476F2D424FED00C957D7 /* NotesAppUITests.swift */; };
 		F8E247722D424FED00C957D7 /* NotesAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E247712D424FED00C957D7 /* NotesAppUITestsLaunchTests.swift */; };
+		F8E247832D42590400C957D7 /* Pagina2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E247822D42590400C957D7 /* Pagina2View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F81762A92D52416600BC12C8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		F8E247512D424FEB00C957D7 /* NotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E247542D424FEB00C957D7 /* NotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesAppApp.swift; sourceTree = "<group>"; };
 		F8E247562D424FEB00C957D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		F8E2476B2D424FED00C957D7 /* NotesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E2476F2D424FED00C957D7 /* NotesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesAppUITests.swift; sourceTree = "<group>"; };
 		F8E247712D424FED00C957D7 /* NotesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8E247822D42590400C957D7 /* Pagina2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagina2View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +98,13 @@
 		F8E247532D424FEB00C957D7 /* NotesApp */ = {
 			isa = PBXGroup;
 			children = (
+				F8E2477E2D42588300C957D7 /* pagina2 */,
 				F8E247542D424FEB00C957D7 /* NotesAppApp.swift */,
+				F8E247822D42590400C957D7 /* Pagina2View.swift */,
 				F8E247562D424FEB00C957D7 /* ContentView.swift */,
 				F8E247582D424FED00C957D7 /* Assets.xcassets */,
 				F8E2475A2D424FED00C957D7 /* Preview Content */,
+				F81762A92D52416600BC12C8 /* DetailView.swift */,
 			);
 			path = NotesApp;
 			sourceTree = "<group>";
@@ -125,6 +132,13 @@
 				F8E247712D424FED00C957D7 /* NotesAppUITestsLaunchTests.swift */,
 			);
 			path = NotesAppUITests;
+			sourceTree = "<group>";
+		};
+		F8E2477E2D42588300C957D7 /* pagina2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pagina2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8E247832D42590400C957D7 /* Pagina2View.swift in Sources */,
+				F81762AA2D52416600BC12C8 /* DetailView.swift in Sources */,
 				F8E247572D424FEB00C957D7 /* ContentView.swift in Sources */,
 				F8E247552D424FEB00C957D7 /* NotesAppApp.swift in Sources */,
 			);
